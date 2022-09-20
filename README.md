@@ -14,10 +14,11 @@
 - [pytorch安装](#6_pytorch安装)
 
 ## 1_主机设备配置
+- 操作系统：Ubuntu18.04
 - 显卡：NVIDIA GeForce RTX 3080 Ti
 - CUDA：11.2
 - CUDNN：8.2.0
-- Pytorch：1.9.1+cu111
+- Anaconda：2021.05-Linux-x86_64
 
 ## 2_显卡驱动安装
 确定显卡驱动有没有安装上：`cat /proc/driver/nvidia/version`
